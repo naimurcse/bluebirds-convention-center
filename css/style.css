@@ -1,0 +1,40 @@
+/* Google Fonts Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Our Package Section Start */
+
+.our-package-section {}
+
+.choose-plan-card {}
+
+.choose-plan-card ul {}
+
+.choose-plan-card ul li {
+    list-style-type: none;
+    color: #848199;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+}
+
+.choose-plan-card ul li i {
+    color: #5243c2;
+    font-size: 7px;
+    background: #5243c224;
+    height: 14px;
+    width: 14px;
+    text-align: center;
+    line-height: 14px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+/* Our Package Section End */
