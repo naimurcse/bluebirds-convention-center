@@ -21,6 +21,21 @@ body {
 .choose-plan-card {
     border-radius: 15px;
     transition: all 0.4s;
+    position: relative;
+    border: 1px solid #0000000f;
+}
+
+.choose-plan-card span {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    background: #FF4E4E;
+    border-radius: 13.5px;
+    padding: 2px 20px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 900;
 }
 
 .choose-plan-card:hover {
