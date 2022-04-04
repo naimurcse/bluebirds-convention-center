@@ -5,17 +5,78 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
 /* Our Package Section Start */
 
 .our-package-section {}
 
-.choose-plan-card {}
+.our-package-section h2 {
+    color: #0A0826;
+    font-weight: 500;
+    font-size: 38px;
+    text-transform: capitalize;
+}
+
+.choose-plan-card {
+    border-radius: 15px;
+    transition: all 0.4s;
+}
+
+.choose-plan-card:hover {
+    background-color: #3F87F5;
+    position: relative;
+    bottom: 20px;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+}
+
+.choose-plan-card:hover li,
+.choose-plan-card:hover p {
+    color: rgba(255, 255, 255, 0.791);
+}
+
+.choose-plan-card:hover h3,
+.choose-plan-card:hover h4 {
+    color: rgb(255, 255, 255);
+}
+
+.choose-plan-card:hover li i {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
 
 .choose-plan-card ul {}
 
+.choose-plan-card .my-plan-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700!important;
+    font-size: 15px;
+    color: #3F87F5!important;
+}
+
+.choose-plan-card p {
+    color: #848199;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.choose-plan-card h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #231D4F;
+    font-weight: 900;
+}
+
+.choose-plan-card h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #231D4F;
+    font-weight: 900;
+}
+
 .choose-plan-card ul li {
     list-style-type: none;
+    font-family: 'Poppins', sans-serif;
     color: #848199;
     font-weight: 300;
     font-size: 14px;
