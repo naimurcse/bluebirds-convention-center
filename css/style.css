@@ -9,8 +9,36 @@ body {
 
 /* Header Start */
 
-header {
-    padding: 10px 0;
+header {}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../icons/menu-2\ 1.svg);
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    border: 1px solid #dc354554;
+    ;
+}
+
+.my-menu {}
+
+.my-menu li {}
+
+.my-menu li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #3E3E3E!important;
+}
+
+.my-menu li a:hover {
+    color: #dc3545!important;
 }
 
 
