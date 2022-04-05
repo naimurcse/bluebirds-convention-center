@@ -21,7 +21,7 @@ header {}
 
 .navbar-toggler:focus {
     box-shadow: none;
-    border: 1px solid #dc354554;
+    border: 1px solid #3f88f532;
     ;
 }
 
@@ -38,11 +38,50 @@ header {}
 }
 
 .my-menu li a:hover {
-    color: #dc3545!important;
+    color: #3F87F5!important;
 }
 
 
 /* Header End */
+
+
+/* moment-section start */
+
+.moment-section {}
+
+.moment-section h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #0A0826;
+    font-weight: 700;
+}
+
+.moment-section p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+.moment-section button {
+    background-color: #3F87F5!important;
+    color: #fff;
+    border: 1px solid #3F87F5;
+    text-transform: capitalize;
+}
+
+.moment-section button i {
+    margin-left: 10px;
+}
+
+.moment-section button:hover {
+    color: #3F87F5!important;
+    background-color: #fff!important;
+    border: 1px solid #3F87F5;
+}
+
+
+/* moment-section end */
 
 
 /* Our Package Section Start */
