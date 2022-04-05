@@ -11,7 +11,7 @@ body {
 
 .our-package-section {}
 
-.our-package-section h2 {
+.section-heading {
     color: #0A0826;
     font-weight: 500;
     font-size: 38px;
@@ -114,3 +114,41 @@ body {
 
 
 /* Our Package Section End */
+
+
+/* Our Clients Section Start */
+
+.clients-section {}
+
+.clients-section .card-body h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #0C1920;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.clients-section .card-body span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #747474;
+}
+
+.clients-section .card-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #6C6C6C;
+    padding: 5px 15px;
+}
+
+
+/* Our Clients Section End */
