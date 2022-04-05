@@ -7,6 +7,16 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
+/* Header Start */
+
+header {
+    padding: 10px 0;
+}
+
+
+/* Header End */
+
+
 /* Our Package Section Start */
 
 .our-package-section {}
