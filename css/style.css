@@ -235,6 +235,33 @@ header {}
 /* Our Clients Section End */
 
 
+/* FAQ Section Start */
+
+.faq-question {}
+
+.faq-question h2 {}
+
+.faq-question button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #383838;
+}
+
+.faq-answer {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.8;
+    /* or 175% */
+    color: #7E848C;
+}
+
+
+/* FAQ Section End */
+
+
 /* Footer Start */
 
 footer {
