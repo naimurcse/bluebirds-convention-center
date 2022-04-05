@@ -235,6 +235,36 @@ header {}
 /* Our Clients Section End */
 
 
+/* call-to-action section strat */
+
+.call-to-action {
+    min-height: 400px;
+    background-image: url(../images/call-to-action.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.call-to-action::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+    z-index: 1;
+}
+
+.call-to-action-content {
+    z-index: 2;
+}
+
+
+/* call-to-action section end */
+
+
 /* FAQ Section Start */
 
 .faq-question {}
@@ -299,3 +329,14 @@ footer p {
 
 
 /* Footer End */
+
+
+/* Media Query */
+
+@media only screen and (max-width: 768px) {
+    .section-heading {
+        margin-top: 25px;
+        font-size: 26px;
+        font-weight: 700;
+    }
+}
