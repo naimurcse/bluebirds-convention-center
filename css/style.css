@@ -23,6 +23,10 @@ body {
     transition: all 0.4s;
     position: relative;
     border: 1px solid #0000000f;
+    background-image: url(../icons/watermark.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
 }
 
 .choose-plan-card span {
@@ -152,3 +156,42 @@ body {
 
 
 /* Our Clients Section End */
+
+
+/* Footer Start */
+
+footer {
+    background-color: #0B0D17;
+}
+
+footer p {
+    color: #D9DBE1;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.download-btns h6 {
+    color: #D9DBE1;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.get-app {
+    background-color: #000;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+}
+
+.get-app:hover {
+    border: 1px solid rgb(2, 213, 250);
+}
+
+.get-app img {
+    width: 85px;
+}
+
+
+/* Footer End */
